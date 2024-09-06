@@ -1,6 +1,9 @@
 package com.example.doorlockapp;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +23,27 @@ public class IntroActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        Button userButton = findViewById(R.id.userButton);
+        Button adminButton = findViewById(R.id.adminButton);
+
+        userButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(IntroActivity.this, LoginUserActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        adminButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(IntroActivity.this, LoginAdminActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
 }
