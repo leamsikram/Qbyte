@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+
+    tools:context=".LoginUserActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/logoqbyte" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="150dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:text="Create User Account"
+            android:textSize="35sp"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="99dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_marginTop="230dp"
+        android:orientation="vertical">
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="Enter your fullname"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkorange"
+            android:textSize="20sp"
+            android:background="@drawable/roundedplain_background"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/username_input"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="Enter your email"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkorange"
+            android:textSize="20sp"
+            android:background="@drawable/roundedplain_background"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/username_input"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="Enter password"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkorange"
+            android:textSize="20sp"
+            android:background="@drawable/roundedplain_background"
+            android:padding="18dp"
+            android:inputType="textPassword"
+            android:id="@+id/password_input"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:hint="Confirm password"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkorange"
+            android:textSize="20sp"
+            android:background="@drawable/roundedplain_background"
+            android:padding="18dp"
+            android:inputType="textPassword"
+            android:id="@+id/password_input"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="210dp"
+            android:layout_height="65dp"
+            android:text="REGISTER"
+            android:textSize="25sp"
+            android:background="@drawable/rounded"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+
+            tools:layout_editor_absoluteX="105dp"
+            tools:layout_editor_absoluteY="543dp" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
