@@ -98,14 +98,6 @@
             tools:layout_editor_absoluteX="105dp"
             tools:layout_editor_absoluteY="543dp" />
 
-        <Button
-            android:id="@+id/signbtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
-            android:text="Sign up"
-            android:background="@color/orange"/>
-
 
 
     </LinearLayout>
