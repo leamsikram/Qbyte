@@ -37,8 +37,8 @@
         android:layout_marginTop="150dp"
         android:fontFamily="sans-serif-black"
         android:textColor="@color/black"
-        android:text="Welcome"
-        android:textSize="40dp"
+        android:text="@string/welcome"
+        android:textSize="40sp"
         android:letterSpacing="0.2"
         tools:layout_editor_absoluteX="110dp"
         tools:layout_editor_absoluteY="99dp" />
@@ -76,10 +76,10 @@
         android:id="@+id/button"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="User"
-        android:textSize="15dp"
-        android:background="@drawable/rounded"
-        android:textColor="@color/white"
+        android:text="@string/user"
+        android:textSize="15sp"
+        android:background="@drawable/rounded_white"
+        android:textColor="@color/orange"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="30dp"
         android:textAllCaps="false"
@@ -90,12 +90,12 @@
         android:id="@+id/button2"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Admin"
-        android:textSize="15dp"
+        android:text="@string/admin"
+        android:textSize="15sp"
         android:textStyle="bold"
         android:textAllCaps="false"
-        android:background="@drawable/rounded_white"
-        android:textColor="@color/orange" />
+        android:background="@drawable/rounded"
+        android:textColor="@color/white" />
 
         <View
             android:layout_width="wrap_content"
