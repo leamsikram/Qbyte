@@ -54,6 +54,7 @@
             android:textColor="@color/black"
             android:text="Member Information"
             android:textSize="40dp"
+            android:textAllCaps="true"
             android:textAlignment="center"
             tools:layout_editor_absoluteX="110dp"
             tools:layout_editor_absoluteY="99dp" />
