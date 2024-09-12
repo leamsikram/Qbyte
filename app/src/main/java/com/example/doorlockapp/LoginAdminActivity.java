@@ -27,7 +27,7 @@ public class LoginAdminActivity extends AppCompatActivity {
             String password = passwordInput.getText().toString();
 
 
-            if (username.equals("admin") && password.equals("admin")) {
+            if (username.equals("ADMIN") && password.equals("ADMIN")) {
 
                 Toast.makeText(LoginAdminActivity.this, "Login successful", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(LoginAdminActivity.this, AdminDashboardActivity.class);
